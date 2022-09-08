@@ -20,7 +20,11 @@ class _HomeState extends State<Home> {
     Navigator.of(context)
         .push(MaterialPageRoute(builder: (BuildContext context) {
       return Scaffold(
-          appBar: AppBar(title: Text('Ще один екран)))')),
+          appBar: AppBar(
+              title: Text(
+            'Ще один екран',
+            style: TextStyle(fontFamily: 'Pacifico'),
+          )),
           body: Row(
             children: [
               ElevatedButton(
