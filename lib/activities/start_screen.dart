@@ -17,11 +17,15 @@ class StartScreen extends StatelessWidget {
         ),
         centerTitle: true,
       ),
+      //
+      //
       body: Container(
           child: Row(children: [
+        //
         SizedBox(
           width: 100,
         ),
+        //
         Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -40,6 +44,7 @@ class StartScreen extends StatelessWidget {
             )
           ],
         ),
+        //
         SizedBox(
           width: 0,
         ),
