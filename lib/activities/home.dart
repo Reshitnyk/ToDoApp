@@ -58,6 +58,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[900],
+      //
       appBar: AppBar(
         backgroundColor: Colors.deepPurple,
         title: Text(
@@ -72,6 +73,7 @@ class _HomeState extends State<Home> {
           )
         ],
       ),
+      //
       body: ListView.builder(
           itemCount: listOfTargets.length,
           itemBuilder: (BuildContext context, int index) {
@@ -101,6 +103,7 @@ class _HomeState extends State<Home> {
               },
             );
           }),
+      //
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           showDialog(
